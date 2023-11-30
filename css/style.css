@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&family=Manrope:wght@500;600;700&display=swap');
+
+/*CSS GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+a,
+li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*======================================*/
+/*INICIO*/
+/*======================================*/
+body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+#Inicio {
+    background-image: url(../images/imginicio/imginicio.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+#Inicio h1 {
+    color: white !important;
+    font-family: 'Castoro', serif;
+    font-size:55px;
+}
+#Inicio h3 {
+    color: white !important;
+    font-family: 'Castoro', serif;
+    font-size:55px;
+}
+
+#Inicio span {
+    color: #8B0000;
+    font-family: 'Castoro', serif;
+}
+.content{
+	position: absolute;
+	top: 60%;
+	left:8%;
+	transform: translateY(-50%);
+}
+/*======================================*/
+/*HEADER*/
+/*======================================*/
+
+/*PROPIEDADES DEL HEADER*/
+#header {
+    height: 80px;
+    width: 100%;
+    background-color: #000021;
+    backdrop-filter: blur(3px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/*PROPIEDADES DEL NAV*/
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#navBar img {
+    width: 60px;
+    margin-left: 15px;
+}
+
+#navBar ul li a {
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    transition: .5s;
+}
+
+#navBar ul {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    margin-right: 15px;
+}
+
+#navBar ul a:hover {
+    color: #8B0000;
+    font-size: 25px;
+    transition: .5s;
+}
+
+#navBar ul a:active {
+    color: red;
+}
+/*======================================*/
+/*ACERCA DE MI*/
+/*======================================*/
+#mainAcercaDeMi{
+    background-color: #0B1F5D;
+}
+#AcercaDeMi {
+    color: white;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.row{
+    justify-content: center;
+    align-items: center;
+}
+
+#AcercaDeMi span {
+    color: #8B0000;
+}
+
+div.divImg img{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+
+div.divParrafo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.divTitulo {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+div.divImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+/*======================================*/
+/*Mis Servicios*/
+/*======================================*/
+#mainMisServicios{
+    background-color: #0B1F5D;
+}
+#MisServicios {
+    color: white;
+    height: 90vh;
+    width: 100%;
+
+}
+.servicioscaja {
+    border: 2px black solid;
+    width: 200px;
+    height: 350px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.servicioscaja p {
+    font-weight: 900;
+    font-size: 16px;
+}
+.servicioscaja i{
+    color: #8b0000;
+    font-size: 60px;
+}
+.servicioscaja li {
+    font-size: 14px;
+}
+.divConteinerServiciosCaja{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*======================================*/
+/*Contacto*/
+/*======================================*/
+#mainContacto{
+    background-color: #0B1F5D;
+    height: 100vh;
+}
+#Contacto {
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divRedes{
+    font-size: 60px;
+}
+.divRedes i{
+    margin: 10px;
+}
+.h2TituloAyuda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input,textarea{
+    width: 250px;
+}
+form textarea {
+    resize: none;
+}
+form button{
+    width: 100px;
+}
+
+
+/*======================================*/
+/*FOOTER*/
+/*======================================*/
+footer{
+    background-color: #000021;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
