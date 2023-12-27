@@ -132,6 +132,13 @@ body {
   width: 100%;
 }
 
+#AcercaDeMi h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
 .row {
   justify-content: center;
   align-items: center;
@@ -216,6 +223,12 @@ div.divImg {
   padding: 20px; /* Agrega un espacio interno para mejorar la legibilidad */
 }
 
+#MisServicios h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 .servicioscaja {
   border: 2px black solid;
   width: 350px; /* Ocupa el ancho completo del contenedor padre */
@@ -296,6 +309,13 @@ div.divImg {
   height: auto; /* Ajusta la altura automáticamente según el contenido */
   padding: 20px; /* Agrega un espacio interno para mejorar la legibilidad */
 }
+
+#Cursos h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
 
 #Cursos h1 {
   color: #000021;
