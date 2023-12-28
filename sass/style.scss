@@ -33,13 +33,13 @@ body {
 }
 
 #Inicio h1 {
-  color: white !important;
+  color: #000021;
   font-family: "Castoro", serif;
   font-size: 55px;
 }
 
 #Inicio h3 {
-  color: white !important;
+  color: #000021;
   font-family: "Castoro", serif;
   font-size: 55px;
 }
@@ -165,7 +165,7 @@ div.divImg img {
 
 div.divParrafo {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   margin: 10px;
@@ -180,6 +180,9 @@ div.divParrafo {
 .divEstudiosHabilidades{
   margin: 10px;
   padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 div.divTitulo {
@@ -378,6 +381,7 @@ div.divImg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 150px;
 }
 
 .divRedes {
@@ -395,11 +399,13 @@ div.divImg {
 }
 
 form input, textarea {
-  width: 250px;
+  width: 400px;
+  margin-bottom: 15px
 }
 
 form textarea {
   resize: none;
+  margin-bottom: 15px
 }
 
 form button {
